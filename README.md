@@ -20,3 +20,6 @@ The following scripts can be run directly from QGIS's python console and code ed
 The following scripts are intended for use in the QGIS Field Calculator and must be saved as individual functions in the Function Editor:
 - `max-side-length.py`
 - `top-left-rotation.py`
+
+## Compatibility
+- QGIS 3.16
