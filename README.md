@@ -22,4 +22,4 @@ The following scripts are intended for use in the QGIS Field Calculator and must
 - `top-left-rotation.py`
 
 ## Compatibility
-- QGIS 3.16
+- QGIS 3.16.0
