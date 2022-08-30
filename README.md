@@ -2,6 +2,8 @@
 
 This is currently a catch-all repository for my scripts to automate various QGIS tasks. Eventually, I may consolidate these scripts into a QGIS plugin.
 
+*__Update (8/30/2022): All resources in this repository have been moved to [QGIS Archaeology Resources](https://github.com/josephburkhart/QGIS-Archaeology-Resources). This repository will no longer be actively maintained.__*
+
 ## Scripts
 1. `create-small-grid.py`: This script takes an input layer and generates a small n x n grid inside each input layer feature. Each output grid cell is given a unique grid ID value that includes the parent input feature's grid ID. This script was used to create the minor reference grid in my Master's thesis.
 2. `clean-grid-cell-location-list.py`: This script takes a csv file of intersections between two layers and condenses the labels in one column into a list based on duplicate values in another column. It then sorts the lists by ascending feature ID values.
