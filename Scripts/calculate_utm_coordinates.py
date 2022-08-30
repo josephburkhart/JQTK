@@ -146,7 +146,7 @@ for f in features:
     
     # Construct the output string
     point = geom2.asPoint()
-    utm_coord = str(utmzone[0])+utmzone[1]+' '+str(point.x())+' E '+str(point.y())+' N'
+    utm_coord = str(utmzone[0])+utmzone[1]+' '+str(int(round(point.x(),0)))+' E '+str(int(round(point.y(),0)))+' N'
     
     # Update the feature's attribute value
     attr_value_dict = {output_field_id:utm_coord}
